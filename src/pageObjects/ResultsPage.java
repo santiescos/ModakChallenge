@@ -2,10 +2,10 @@ package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 
-public class ProductPage {
+public class ResultsPage {
 	WebDriver driver;
 	
-	public ProductPage(WebDriver driver) {
+	public ResultsPage(WebDriver driver) {
 		this.driver = driver;
 	}
 
