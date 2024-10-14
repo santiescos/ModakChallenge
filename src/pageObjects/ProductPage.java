@@ -11,7 +11,7 @@ public class ProductPage {
 		this.driver = driver;
 	}
 	
-	public boolean getNumberFromElement() {
+	public boolean verifyAvailabilityFromElement() {
 		String stringFromElement = driver.findElement(elementWithInfoFromAvailability).getText();
 		String[] parts = stringFromElement.split(" ");
         int availableProducts = Integer.parseInt(parts[0]);
